@@ -1,0 +1,47 @@
+* {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+.atm {
+    width: 25%;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(186, 199, 211);
+}
+
+button {
+    height: 60px;
+    width: 90%;
+    padding: 20px;
+    background-color: rgb(69, 146, 146);
+    border-radius: 20px;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: rgb(148, 209, 209);
+}
+
+.btn {
+    height: 40px;
+    width: 40%;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+input {
+    height: 30px;
+    width: 90%;
+    text-align: left;
+    border-radius: 20px;
+    padding: 0 10px;
+}
+
+#cls_withdraw,
+#cls_deposit {
+    display: none;
+}
